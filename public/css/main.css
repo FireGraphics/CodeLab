@@ -1,0 +1,92 @@
+body {
+    background: rgb(233, 233, 233);
+}
+
+body, html {
+    overflow-y: scroll;
+}
+
+.postInfo {
+    width: 100%;
+    border-top: 1px solid #e1e1d1;
+    margin-top: 10px;
+    height: 17.5%;
+    padding: 20px 0;
+}
+
+.postTitle a {
+    transition: all 0.3s;
+    cursor: pointer;
+    color: #333;
+}
+
+.postTitle a:hover {
+    color: #008FF7;
+}
+
+.articleInfo {
+    background: #e1e1e1;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    box-sizing: content-box;
+    width: initial;
+}
+
+.overlay img {
+    transition: all 0.5s;
+    width: 100%;
+}
+
+.overlay img:hover {
+    width: 120%;
+}
+
+.menu {
+    width: 100%;
+    background: #fff;
+    height: 90px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main {
+    background: #fff;
+}
+
+input::after {
+    border-color: #333;
+}
+
+#like {
+    transition: all 0.3s;
+}
+
+#like:hover {
+    color: #fdd835;
+}
+
+.articlesList {
+    background: #fff;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.articlePanel {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px 0;
+}
+
+.card-content a {
+    transition: all 0.3s;
+    cursor: pointer;
+    color: #333;
+}
+
+.card-content a:hover {
+    color: #008FF7;    
+}

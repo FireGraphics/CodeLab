@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^portfolio$ index.php?p=portfolio
