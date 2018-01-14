@@ -49,7 +49,7 @@ class Database {
         return $datas;
     }
 
-    public function prepare($statement, $values, $onlyOne = false, $class) {
+    public function prepare($statement, $values, $onlyOne = false, $class = "") {
         $pdo = $this->getPDO()->prepare($statement);
         $pdo->execute($values);
 
@@ -135,6 +135,13 @@ class Database {
         } else {
             return false;
         }
+    }
+
+    // fonction permettant de retourner le level de l'utilisateur
+
+    public function checkLevel($idUser) {
+        $pdo = $this->prepare("SELECT level FROM users WHERE id = ?", [$idUser], true);
+        return $pdo;
     }
 
 

@@ -10,3 +10,9 @@ if(isset($_POST['password']) && !empty($_POST['password']) && isset($_POST['emai
 } else {
     echo "no";
 }
+
+function verifyInput($var) {
+    $var = trim($var);
+    $var = htmlspecialchars($var);
+    return $var;
+}

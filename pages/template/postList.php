@@ -22,7 +22,7 @@
                   </div>
                   <div class="articleInfo">
                     <div class="datetime">
-                        <p style="margin: 0;padding: 0;"><span class="material-icons" style="margin: 0;padding: 0 0 5px 0;float: left;font-size: 20px;margin-right: 5px;">account_circle</span><?= $user->username  ?></a>
+                        <p style="margin: 0;padding: 0;"><span class="material-icons" style="margin: 0;padding: 0 0 5px 0;float: left;font-size: 20px;margin-right: 5px;">account_circle</span><?= $user->username ?></a>
                     </div>
                   </div>
                   <div class="articleInfo">
